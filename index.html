@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hp Pinjam</title>
+	<link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+	<!-- Bulma Version 0.9.x-->
+	<link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/contact.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    
+            // Ambil elemen burger dan menu
+            var burger = document.querySelector('.navbar-burger');
+            var menu = document.querySelector('#navbarMenu');
+    
+            // Tambahkan event listener untuk toggle menu
+            burger.addEventListener('click', function () {
+                burger.classList.toggle('is-active');
+                menu.classList.toggle('is-active');
+            });
+    
+        });
+    </script>
+    
+</head>
+
+<body>  
+	<!-- START NAV -->
+
+<nav class="navbar">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="../">
+                <img src="./image/logo.png" alt="Logo">
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item is-active" href="./index.html">Home</a>
+                <a class="navbar-item" href="./pages/proposal.html">Proposal</a>
+                <a class="navbar-item" href="./pages/contact.html">Contact</a>
+                <a class="navbar-item" href="./pages/team.html">Team</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!-- END NAV -->
+  
+	<section class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns is-8 is-variable">
+                    <div class="column is-two-thirds has-text-left">
+                        <h1 class="title is-1">HP PINJAM</h1>
+                        <p class="is-size-4">"HP PINJAM" ini adalah sebuah aplikasi yang berbasis websit merupakan platform yang memungkinkan pengguna untuk menyewa perangkat ponsel secara sementara. Pengguna dapat memilih model, spesifikasi, dan durasi sewa sesuai kebutuhan mereka. Selain itu, pengguna juga dapat memperpanjang masa sewa atau mengembalikan perangkat setelah masa sewa berakhir. Dengan konsep ini, pengguna dapat menikmati fitur terbaru tanpa perlu membeli ponsel baru secara langsung dan juga para penyewa hp lebih bisa mengabadikan moment moment mereka dengan lebih baik lagi.</p>
+                    </div>
+                    <div class="column">
+                        <!-- Tambahkan gambar di sini -->
+                        <figure class="image is-9by10">
+                            <img src="./image/dua.jpg" alt="Deskripsi gambar Anda">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+</body>
+
+</html>

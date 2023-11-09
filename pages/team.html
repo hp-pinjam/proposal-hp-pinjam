@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hp Piinjam</title>
+	<link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+	<!-- Bulma Version 0.9.x-->
+	<link rel="stylesheet" href="https://unpkg.com/bulma@0.9.4/css/bulma.min.css" />
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/contact.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    
+            // Ambil elemen burger dan menu
+            var burger = document.querySelector('.navbar-burger');
+            var menu = document.querySelector('#navbarMenu');
+    
+            // Tambahkan event listener untuk toggle menu
+            burger.addEventListener('click', function () {
+                burger.classList.toggle('is-active');
+                menu.classList.toggle('is-active');
+            });
+    
+        });
+    </script>
+    
+</head>
+
+<body>
+	<!-- START NAV -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="../">
+                    <img src="../image/logo.png" alt="Logo">
+                </a>
+                <span class="navbar-burger burger" data-target="navbarMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="../index.html">Home</a>
+                    <a class="navbar-item" href="./proposal.html">Proposal</a>
+                    <a class="navbar-item" href="./contact.html">Contact</a>
+                    <a class="navbar-item is-active" href="./team.html">Team</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+<!-- END NAV -->
+    <!-- ... (Kode sebelumnya) ... -->
+
+<!-- Bagian team Team dengan ID "team-team" -->
+<section class="hero is-fullheight">
+    <div class="hero-body">
+    <section id="team-team" class="section-light team-team">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <figure class="image is-9by10">
+                        <img src="../image/tes.jpeg" alt="Foto 1" style="width: 400px; height: 450px;">
+                    </figure>
+                    <div class="card-content">
+                        <div class="content">
+                            <h1 class="title is-4">User Information</h1>
+                            <ul>
+                                <li><strong>Nama:</strong> <span id="nama-farhan"></span></li>
+                                <li><strong>Kelas:</strong> <span id="kelas-farhan"></span></li>
+                                <li><strong>NPM:</strong> <span id="npm-farhan"></span></li>
+                                <li><strong>Kontak:</strong> <span id="kontak-farhan"></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <figure class="image is-9by10">
+                        <img src="../image/ludha.jpg" alt="Foto 2" style="width: 400px; height: 450px;">
+                    </figure>
+                    <div class="card-content">
+                        <div class="content">
+                            <h1 class="title is-4">User Information</h1>
+                            <ul>
+                                <li><strong>Nama:</strong> <span id="nama-ludha"></span></li>
+                                <li><strong>Kelas:</strong> <span id="kelas-ludha"></span></li>
+                                <li><strong>NPM:</strong> <span id="npm-ludha"></span></li>
+                                <li><strong>Kontak:</strong> <span id="kontak-ludha"></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="../js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+{
+    "contactInfo": {
+        "title": "Contact Us",
+        "description": "Jika teman-teman semua memiliki masukan terhadap website penyewaan hp kami, maka teman-teman bisa mengirimkan keluhan tersebut. Terimakasih semuanyaa",
+        "socialMedia": [
+            {
+                "platform": "Facebook",
+                "url": "https://facebook.com"
+            },
+            {
+                "platform": "Instagram",
+                "url": "https://instagram.com"
+            },
+            {
+                "platform": "Twitter",
+                "url": "https://twitter.com"
+            }
+        ]
+    }
+}

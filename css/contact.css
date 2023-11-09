@@ -1,0 +1,88 @@
+/* Mengatur font default dan warna latar belakang */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Gaya untuk navbar */
+.navbar {
+  background-color: #A8DF8E;
+  color: white;
+}
+
+/* Gaya untuk navbar item saat dihover */
+.navbar-item:hover {
+  background-color: #23272a;
+}
+
+/* Gaya untuk navbar item aktif */
+.navbar-item.is-active {
+    background-color: #3498db;
+    color: #fff; /* Mengubah warna teks menjadi putih */
+    font-weight: bold;
+}
+
+
+/* Gaya untuk judul hero */
+.hero {
+  background-color: #F3FDE8;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Gaya untuk konten utama */
+.container {
+  padding: 2rem;
+}
+
+/* Gaya untuk kolom teks */
+.column {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk gambar dalam kolom */
+.image.is-9by10 img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Membuat gambar terpusat */
+}
+
+/* Gaya untuk teks dalam kolom */
+.is-size-4 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+/* Gaya untuk tombol */
+.button {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-top: 1rem;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+/* Gaya untuk rata kiri (justify) semua teks di dalam .content kecuali judul */
+.content {
+  text-align: justify;
+}
+
+/* Gaya untuk membuat judul (class article-title) menjadi tengah (center) */
+.title.article-title {
+  text-align: center;
+}
+
